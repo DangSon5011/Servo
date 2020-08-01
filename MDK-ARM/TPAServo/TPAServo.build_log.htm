@@ -1,0 +1,65 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.17.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Dang SON, ssdj, LIC=32BSB-2LJ2I-T3DMI-T8YK9-Q96MU-DSG4G
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.17
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 1 (build 61)
+Assembler:       Armasm.exe V5.06 update 1 (build 61)
+Linker/Locator:  ArmLink.exe V5.06 update 1 (build 61)
+Library Manager: ArmAr.exe V5.06 update 1 (build 61)
+Hex Converter:   FromElf.exe V5.06 update 1 (build 61)
+CPU DLL:         SARMCM3.DLL V5.17
+Dialog DLL:      DCM.DLL V1.13.4.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\SON\Desktop\TPAServo\MDK-ARM\TPAServo.uvprojx
+Project File Date:  07/21/2020
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 1 (build 61)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'TPAServo'
+compiling main.c...
+../Src/main.c(257): warning:  #1295-D: Deprecated declaration acb - give arg types
+  void acb();
+../Src/main.c(298): warning:  #175-D: subscript out of range
+  			ComStatus.Reset = (char)nbytes[8];
+../Src/main.c(324): warning: C4487E: read from variable 'nbytes' with offset out of bounds
+}
+../Src/main.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=23928 RO-data=568 RW-data=412 ZI-data=3148  
+FromELF: creating hex file...
+"TPAServo\TPAServo.axf" - 0 Error(s), 3 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\SON\Desktop\TPAServo\MDK-ARM\RTE
+  C:\Users\SON\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\SON\AppData\Local\Arm\Packs\Keil\STM32F7xx_DFP\2.12.0\Drivers\CMSIS\Device\ST\STM32F7xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+      Source file:   CMSIS\Core\Template\ARMv8-M\tz_context.c
+      Source file:   CMSIS\Core\Template\ARMv8-M\main_s.c
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:10
+</pre>
+</body>
+</html>
